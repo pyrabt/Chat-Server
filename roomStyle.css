@@ -1,0 +1,45 @@
+html,
+body {
+    height: 100%;
+    background: url("https://wallpapertag.com/wallpaper/full/9/5/d/213375-large-simple-desktop-backgrounds-1920x1080-for-full-hd.jpg");
+}
+
+h1{
+    text-align: center;
+    color: grey;
+}
+
+.chat-container{
+    max-height: 600px;
+    width: 95%;
+    border: solid 1px #000000;
+    border-radius: 5px;
+    overflow-y: auto;
+    background-color: #999999;
+    padding-left: 15px;
+}
+
+.message{
+    border-bottom: solid 1px #000000;
+    padding: 20px;
+}
+
+.time{
+    float: right;
+}
+
+.wrap{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -140px;
+}
+
+.push, .footer{
+    height: 100px;
+}
+
+.footer{
+    padding-left: 5%;
+    padding-right: 5%;
+}

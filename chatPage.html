@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Will's Chat Server</title>
+    <script src="chatPageBackend.js"></script>
+    <link href="bootstrap.css" rel="stylesheet">
+    <link href="bootstrap-responsive.css" rel="stylesheet">
+    <link href="chatStyle.css" rel="stylesheet">
+</head>
+<body class="text-center">
+    <form class="form-signin img-rounded">
+        <h1 class="h3 mb-3 font-weight-normal">Will's Chat Server</h1>
+        <h3 class="h3 mb-3 font-weight-normal">Please join a room</h3>
+        <div class="form-group">
+            <input type="text" class="form-control" id="alias" aria-describedby="chatAlias" placeholder="Chat Alias" required autofocus>
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" id="room" aria-describedby="roomName" placeholder="Room" required>
+        </div>
+        <button id="join" class="btn btn-lg btn-primary btn-block" type="button">Join</button>
+    </form>
+</body>
+</html>
